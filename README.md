@@ -2,9 +2,7 @@
 ## EJERCICIO DE LAS FIGURAS
 **CREAR UN PROYECTO CON MAVEN**  
 1. Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes).  
-        $ `mvn archetype:generate -DgroupId=com.ejemplo -DartifactId=mi-proyecto -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-
-    `
+        $ `mvn archetype:generate -DgroupId=com.ejemplo -DartifactId=mi-proyecto -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
 2. Busque cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype", con los siguientes parámetros:
     ProyectoId: `org.apache.maven.archetypes:maven-archetype-quickstart:1.0`
 
