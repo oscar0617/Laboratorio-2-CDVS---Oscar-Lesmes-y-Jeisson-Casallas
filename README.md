@@ -106,5 +106,64 @@ public interface Shape {
     public int getNumberOfEdges();
 }
 ```
+3. Cree una enumeración llamada RegularShapeType.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes así:
+
+package edu.eci.cvds.patterns.shapes;
+```
+public enum RegularShapeType {
+    Triangle, Quadrilateral, Pentagon, Hexagon
+}
+```
+4. En el directorio src/main/java/edu/eci/cvds/patterns/shapes/concrete cree las diferentes clases (Triangle, Quadrilateral, Pentagon, Hexagon), que implementen la interfaz creada y retornen el número correspondiente de vértices que tiene la figura.
+
+Siguiendo el ejemplo del triángulo:
+```
+package edu.eci.cvds.patterns.shapes.concrete;
+
+import edu.eci.cvds.patterns.shapes.Shape;
+
+public class Triangle implements Shape {
+    public int getNumberOfEdges() {
+        return 3;
+    }
+}
+```
+5. Cree el archivo ShapeMain.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes con el metodo main:
+
+package edu.eci.cvds.patterns.shapes;
+
+```
+public class ShapeMain {
+
+  public static void main(String[] args) {
+    if (args == null || args.length != 1) {
+      System.err.println("Parameter of type RegularShapeType is required.");
+      return;
+    }
+    try {
+      RegularShapeType type = RegularShapeType.valueOf(args[0]);
+      Shape shape = ShapeFactory.create(type);
+      System.out.println(
+        String.format(
+          "Successfully created a %s with %s sides.",
+          type,
+          shape.getNumberOfEdges()
+        )
+      );
+    } catch (IllegalArgumentException ex) {
+      System.err.println(
+        "Parameter '" + args[0] + "' is not a valid RegularShapeType"
+      );
+      return;
+    }
+  }
+}
+```
+**ARCHIVOS .JAVA SE ENCUENTRAN EN LA CARPETA DE PATTERNS**
+
+Analice y asegúrese de entender cada una de las instrucciones que se encuentran en todas las clases que se crearon anteriormente. Cree el archivo ShapeFactory.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes implementando el patrón fábrica (Hint: https://refactoring.guru/design-patterns/catalog), haciendo uso de la instrucción switch-case de Java y usando las enumeraciones.
+
+¿Cuál fábrica hiciste? y ¿Cuál es mejor? 
+Para esta implementación hicimos una fabrica simple. debido a que el problema no requiere una logica muy compleja para ser solucionado. La elección de cual es la mejor fabrica depende de que tan avanzada sea la implementación, donde se usen abstracciones mas elaboradas. En general, varia segun el diseño.
 
 **Gracias**
