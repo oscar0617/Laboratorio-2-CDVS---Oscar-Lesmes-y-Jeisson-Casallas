@@ -97,6 +97,14 @@ Salida: `Hola, Oscarin Lesmes!`
 
 
 ## HACER EL ESQUELETO DE LA APLICACIÓN
-pendiente
+1. Cree el paquete edu.eci.cvds.patterns.shapes y el paquete edu.eci.cvds.patterns.shapes.concrete.
+![image](https://github.com/oscar0617/Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas/assets/111905740/f1446b9b-0396-4b65-971d-07e54f7ce7ad)
+2. Cree una interfaz llamada Shape.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes de la siguiente manera:
+package edu.eci.cvds.patterns.shapes;
+```java
+public interface Shape {
+    public int getNumberOfEdges();
+}
+```
 
 **Gracias**
