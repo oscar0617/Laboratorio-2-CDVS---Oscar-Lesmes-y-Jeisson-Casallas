@@ -1,11 +1,6 @@
 package edu.eci.cvds.patterns.shapes;
 
-import edu.eci.cvds.patterns.shapes.RegularShapeType;
-import edu.eci.cvds.patterns.shapes.concrete.*;
-import main.java.edu.eci.cvds.patterns.concrete.Hexagon;
-import main.java.edu.eci.cvds.patterns.concrete.Pentagon;
-import main.java.edu.eci.cvds.patterns.concrete.Quadrilateral;
-import main.java.edu.eci.cvds.patterns.concrete.Triangle;
+import edu.eci.cvds.patterns.concrete.*;
 
 public class ShapeFactory {
 

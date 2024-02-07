@@ -1,4 +1,5 @@
-package edu.eci.cvds.patterns.shapes.concrete;
+package edu.eci.cvds.patterns.concrete;
+import edu.eci.cvds.patterns.shapes.*;
 
 import edu.eci.cvds.patterns.shapes.Shape;
 

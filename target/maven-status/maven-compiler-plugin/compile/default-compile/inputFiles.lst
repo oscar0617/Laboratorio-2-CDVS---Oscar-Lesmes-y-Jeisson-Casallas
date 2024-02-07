@@ -1,7 +1,9 @@
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\archetype\App.java
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Pentagon.java
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\shapes\RegularShapeType.java
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Hexagon.java
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Triangle.java
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Quadrilateral.java
-C:\Users\User\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\shapes\Shape.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Hexagon.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\archetype\App.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\shapes\Shape.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Pentagon.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\shapes\ShapeFactory.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\shapes\RegularShapeType.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Triangle.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\shapes\ShapeMain.java
+C:\Users\luzma\Laboratorio-2-CDVS---Oscar-Lesmes-y-Jeisson-Casallas\src\main\java\edu\eci\cvds\patterns\concrete\Quadrilateral.java
